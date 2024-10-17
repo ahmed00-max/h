@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+       
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto flex justify-between items-center py-6">
+            <h1 class="text-3xl font-bold">Ahmed Ben Faiza</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="text-gray-600 hover:text-blue-500">Home</a></li>
+                    <li><a href="#projects" class="text-gray-600 hover:text-blue-500">Projects</a></li>
+                    <li><a href="#contact" class="text-gray-600 hover:text-blue-500">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen hero-bg bg-cover bg-center">
+        <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+            <img src="first1.jpg" alt="Project Image" class="rounded mb-4">
+            <h2 class="text-5xl text-white font-semibold">Hello, I'm Ahmed Ben Faiza</h2>
+        </div>
+       
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-4xl text-center font-bold mb-8">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold">Skill 1</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold">Skill 2</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold">Skill 3</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold">Skill 4</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 bg-gray-200">
+        <div class="container mx-auto">
+            <h2 class="text-4xl text-center font-bold mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <img src="project1.jpg" alt="Project Image" class="rounded mb-4">
+                    <h3 class="text-xl font-semibold">Project 1</h3>
+                    <p class="text-gray-600">Description of project 1 goes here.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <img src="project2.jpg" alt="Project Image" class="rounded mb-4">
+                    <h3 class="text-xl font-semibold">Project 2</h3>
+                    <p class="text-gray-600">Description of project 2 goes here.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <img src="project3.jpg" alt="Project Image" class="rounded mb-4">
+                    <h3 class="text-xl font-semibold">Project 3</h3>
+                    <p class="text-gray-600">Description of project 3 goes here.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-4xl text-center font-bold mb-8">Contact Me</h2>
+            <form class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label class="block text-gray-700">Name</label>
+                    <input type="text" class="w-full p-2 border border-gray-300 rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700">Email</label>
+                    <input type="email" class="w-full p-2 border border-gray-300 rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700">Message</label>
+                    <textarea class="w-full p-2 border border-gray-300 rounded" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+            <div class="flex space-x-4">
+                <a href="#" class="hover:text-blue-400">Facebook</a>
+                <a href="#" class="hover:text-blue-400">Twitter</a>
+                <a href="#" class="hover:text-blue-400">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

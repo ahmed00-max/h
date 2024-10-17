@@ -1,0 +1,6 @@
+.hero-bg {
+    background-image: url(first1.jpg);
+}
+.gradient-bg {
+    background: linear-gradient(to right, #4f46e5, #3b82f6);
+}
